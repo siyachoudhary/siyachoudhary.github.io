@@ -10284,12 +10284,12 @@ input[type=submit]{
     border: none;
     min-width: 100px;
 }
-.typewriter h1 {
+.typewriter p {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   animation: 
-    typing 4.5s steps(40, end),
+    typing 5.0s steps(40, end),
     blink-caret .75s step-end infinite;
 }
 
